@@ -1,0 +1,26 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>🐐 Blog Kambing!</h1>
+			<p>
+			Hai, bagi kamu yang kesasar di blog ini, saya ucapkan selamat datang.
+			Ini sebetulnya hanya blog yang tidak penting.
+			Di dalam blog ini hanya berisi curhat dan keluh kesah seorang developer amatir yang tidak punya wadah lain selain menulis di blog pribadinya sendiri.
+			<i>Anyway</i>, sekali lagi selamat datang dan selamat membaca, semoga bermanfaat.
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
