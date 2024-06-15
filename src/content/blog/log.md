@@ -23,8 +23,6 @@ Siapa yang melakukan aktivitas tersebut.
 
 #### 4. Catatan Tambahan
 Catatan tambahan jika ada.
-Log Error
-Digunakan untuk melacak kesalahan dan bug.
 
 ### Log Error
 
