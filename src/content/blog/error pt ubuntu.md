@@ -2,7 +2,7 @@
 title: 'Install Packet Tracer di Ubuntu 23.10 ke Atas'
 description: 'Anda menemukan Error di Ubuntu 23.10'
 pubDate: 'Jul 15 2024'
-heroImage: '/blog-placeholder-4.jpg'
+heroImage: ''
 ---
 
 ###### If Cisco Packet Tracer installation on Ubuntu 23.10 gives you this error
