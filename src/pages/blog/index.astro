@@ -6,10 +6,9 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
 import { getCollection } from 'astro:content';
 import FormattedDate from '../../components/FormattedDate.astro';
 
-const allPosts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf() // Urutkan dari terbaru ke lama
+const posts = (await getCollection('blog')).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf() // Mengubah urutan menjadi dari terbaru ke terlama
 );
-const topPosts = allPosts.slice(0, 3); // Ambil hanya tiga postingan terbaru
 ---
 
 <!doctype html>
@@ -20,7 +19,6 @@ const topPosts = allPosts.slice(0, 3); // Ambil hanya tiga postingan terbaru
 			main {
 				width: 960px;
 				margin: 0 auto;
-				padding: 2rem 0;
 			}
 			ul {
 				display: flex;
@@ -71,20 +69,6 @@ const topPosts = allPosts.slice(0, 3); // Ambil hanya tiga postingan terbaru
 			ul a:hover img {
 				box-shadow: var(--box-shadow);
 			}
-			.learn-more {
-				color: var(--accent);
-				text-decoration: none;
-				display: inline-block;
-				margin-top: 20px;
-				padding: 10px 20px;
-				border: 2px solid var(--accent);
-				border-radius: 5px;
-				transition: background 0.3s, color 0.3s;
-			}
-			.learn-more:hover {
-				background: var(--accent);
-				color: #fff;
-			}
 			@media (max-width: 720px) {
 				ul {
 					gap: 0.5em;
@@ -108,8 +92,8 @@ const topPosts = allPosts.slice(0, 3); // Ambil hanya tiga postingan terbaru
 			<section>
 				<ul>
 					{
-						topPosts.map((post) => (
-							<li key={post.slug}>
+						posts.map((post) => (
+							<li>
 								<a href={`/blog/${post.slug}/`}>
 									<img width={720} height={360} src={post.data.heroImage} alt={post.data.title} />
 									<h4 class="title">{post.data.title}</h4>
@@ -121,9 +105,6 @@ const topPosts = allPosts.slice(0, 3); // Ambil hanya tiga postingan terbaru
 						))
 					}
 				</ul>
-				{allPosts.length > 3 && (
-					<a href="/blog" class="learn-more">Learn More</a>
-				)}
 			</section>
 		</main>
 		<Footer />
