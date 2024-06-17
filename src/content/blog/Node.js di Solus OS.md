@@ -2,7 +2,7 @@
 title: 'Menginstall Node.Js di Solus OS'
 description: 'Tutorial install Node.Js di Solus OS'
 pubDate: 'Jul 17 2024'
-heroImage: '/blog-placeholder-3.jpg'
+heroImage: ''
 ---
 
 ## Tutorial Menginstall Node.js di Solus OS
