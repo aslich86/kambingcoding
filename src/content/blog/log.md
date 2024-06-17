@@ -2,7 +2,7 @@
 title: 'Membuat Log Software Engineer'
 description: 'Log Software Engineer'
 pubDate: 'Jul 15, 2024'
-heroImage: ''
+heroImage: 
 ---
 
 ## Membuat Log
