@@ -2,7 +2,7 @@
 title: 'Membuat Dokumentasi Software Engineer'
 description: 'Dokumentasi Software Engineer'
 pubDate: 'Jul 15, 2024'
-heroImage: 
+heroImage: 'blog-placeholder-1.jpg'
 ---
 
 ### 1. Identifikasi Kebutuhan Dokumentasi
