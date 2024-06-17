@@ -54,3 +54,5 @@ heroImage: 'blog-placeholder-1.jpg'
   ```
     sudo gdebi ./YOURPACKETTRACKERARCHIVE.deb 
   ```
+
+#2
