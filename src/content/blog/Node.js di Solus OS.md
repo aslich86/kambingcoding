@@ -5,8 +5,6 @@ pubDate: 'Jul 17 2024'
 heroImage: 'blog-placeholder-2.jpg'
 ---
 
-## Tutorial Menginstall Node.js di Solus OS
-
 Saat ini, saya menggunakan Solus OS, sebuah distribusi Linux yang mungkin kurang populer di Indonesia dibandingkan Ubuntu dan Debian.
 Karena ketidak populerannya, tidak seperti sistem operasi lain, cukup sulit untuk mencari tutorial dalam menginstall tools atapun software yang kita butuhkan.
 Salah satu tools yang sangat saya butuhkan diantaranya adalah Node.js. Tools ini sering saya gunakan dalam membangun sebuah website.
