@@ -1,7 +1,7 @@
 ---
 title: 'Hello World'
 description: 'Postingan pertama'
-pubDate: 'Jul 14 2024'
+pubDate: 'Jun 14 2024'
 heroImage: 'blog-placeholder-2.jpg'
 ---
 
