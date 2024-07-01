@@ -7,7 +7,7 @@ heroImage: 'blog-placeholder-2.jpg'
 
 Berikut adalah langkah-langkah cara melakukan instalasi Nodejs pada OS berbasis Debian. Saya menggunakan Deepin OS 23 (RC2) pada kesempatan ini. Sebelumnya, unduh nodejs [disini](https://nodejs.org/en). 
 
-NB : Semua langkah di bawah dilakukan mengenai terminal ya, dan saya sudah menngunduh file node-v20.15.0-linux-x64.tar.xz dan menempatkannya di direktori Downloads, apabila ada perbedaan nama file dan direktori, kamu bisa menyesuaikan sendiri.
+NB : Semua langkah di bawah dilakukan melalui terminal ya, dan saya sudah menngunduh file node-v20.15.0-linux-x64.tar.xz serta menempatkannya di direktori Downloads, apabila ada perbedaan nama file dan direktori, kamu bisa menyesuaikan sendiri.
 
 #### Pindah ke Direktori Downloads. 
 Pindah ke direktori di mana file tar.xz hasil unduhan disimpan. Biasanya, file yang diunduh disimpan di direktori Downloads.
