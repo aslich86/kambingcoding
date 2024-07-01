@@ -1,4 +1,9 @@
-## Pengalaman Menggunakan Linux Selama Kuliah di S1 Informatika
+---
+title: 'Pengalaman Menggunakan Linux Selama Kuliah di S1 Informatika'
+description: 'Pengalaman menggunakan Linux'
+pubDate: 'Jul 01 2024'
+heroImage: 'blog-placeholder-2.jpg'
+---
 
 Alhamdulillah, saat ini saya sudah berada di semester 6 berkuliah di Informatika. Mungkin 1-2 semester lagi insya Allah saya akan lulus dalam perkuliahan di bidang ilmu komputer ini. Sejak hari pertama kuliah, saya meniatkan diri untuk menggunakan sistem operasi Linux dengan beragam Distro berganti-ganti saat mengikuti perkuliahan. Di postingan blog kali ini, saya akan berbagi alasan dan suka duka dalam  menggunakan Linux untuk perkuliahan di Informatika
 
