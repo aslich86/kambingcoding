@@ -1,7 +1,7 @@
 ---
 title: 'Install Packet Tracer di Ubuntu 23.10 ke Atas'
 description: 'Anda menemukan Error di Ubuntu 23.10'
-pubDate: 'Jul 15 2024'
+pubDate: 'Jun 15 2024'
 heroImage: 'blog-placeholder-2.jpg'
 ---
 
