@@ -12,39 +12,40 @@ NB : Semua langkah di bawah dilakukan melalui terminal ya, dan saya sudah menngu
 #### Pindah ke Direktori Downloads. 
 Pindah ke direktori di mana file tar.xz hasil unduhan disimpan. Biasanya, file yang diunduh disimpan di direktori Downloads.
 
-~~~
+```
 cd ~/Downloads
-~~~
+```
 
 #### Ekstrak File Unduhan.
+
 Ekstrak file tar.xz yang telah kamu unduh.
 
-~~~~
+```
 tar -xJvf node-v20.15.0-linux-x64.tar.xz
-~~~
+```
 
 #### Pindahkan Folder Node.js
 Pindahkan folder yang diekstrak ke direktori /usr/local untuk menginstalnya secara global.
 
-~~~
+```
 sudo mv node-v20.15.0-linux-x64 /usr/local/node-v20.15.0
-~~~
+```
 
 #### Buat Symbolic Link:
 Buat symbolic link untuk memudahkan penggunaan Node.js. Dengan cara ini, kamu bisa mengakses Node.js dari mana saja di sistem.
 
-~~~
+```
 sudo ln -s /usr/local/node-v20.15.0/bin/node /usr/local/bin/node
 sudo ln -s /usr/local/node-v20.15.0/bin/npm /usr/local/bin/npm
 sudo ln -s /usr/local/node-v20.15.0/bin/npx /usr/local/bin/npx
-~~~
+```
 
 #### Verifikasi Instalasi:
 Verifikasi apakah Node.js dan npm telah terinstal dengan benar.
 
-~~~
+```
 node -v
 npm -v
-~~~
+```
 
 Perintah ini seharusnya menampilkan versi Node.js dan npm yang telah diinstal.
