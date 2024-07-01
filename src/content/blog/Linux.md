@@ -15,6 +15,7 @@ Selain alasan tersebut, menggunakan Microsoft Windows rentan dengan software baj
 
 ### Suka Duka Menggunakan Linux.
 
+
 #### Sukanya Menggunakan Linux
 
 - Sejauh ini aman, tidak ada virus yang menginfeksi meskipun saya tidak menggunakan antivirus apapun
