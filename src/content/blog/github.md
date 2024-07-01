@@ -1,7 +1,7 @@
 ---
 title: 'Install Git dan Github pada Solus OS'
 description: 'Tutorial install Git dan Github pada Solus OS'
-pubDate: 'Jul 18, 2024'
+pubDate: 'Jun 18, 2024'
 heroImage: 'blog-placeholder-2.jpg'
 ---
 
